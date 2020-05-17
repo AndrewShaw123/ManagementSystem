@@ -1,0 +1,68 @@
+body{
+    background:url(../img/chatBackground.jpg);
+    background-size: 100%;
+}
+#all{
+    width: 800px;
+    margin-left: 400px;
+    float: left;
+}
+
+#all #userList ul{
+    float: left;
+    padding: 0px;
+    width: 200px;
+    margin-top: 1px;
+}
+
+#all #userList ul li{
+    list-style:none;
+    width: 200px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    border-bottom: 2px solid #292C33;
+}
+
+#all #userList ul li img{
+    float: left;
+    margin-left: 10px;
+}
+
+#all #userList ul li span{
+    font-size:20px;
+    float: left;
+}
+
+#send{
+    width:70px;
+    height:27px;
+    background: white;
+    border:1px solid #D6D6D6;
+    color: black;
+    font:13px bolder;
+    float: right;
+}
+
+.sel{
+    background-color: #706F70;
+}
+
+.notice {
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:10px;
+    color:#fff;
+    text-align:center;
+    background-color:#f00;
+    border-radius:50%;
+    position: relative;
+    right:-35px;
+    top:-1px;
+    display: inline-block;
+}
+img{
+    vertical-align:middle;
+}

@@ -1,0 +1,123 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.main{
+    width:900px;
+    /*margin: 0 auto;*/
+    margin-left: 380px;
+}
+.head{
+    width:100%;
+}
+.head ul{
+    width: 100%;
+    padding: 0px;
+    float: left;
+    margin-top: 10px;
+}
+.head ul li{
+    list-style-type: none;
+    float: left;
+    background-color: #383F52;
+}
+.head ul li a{
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.head ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
+.left{
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+.left a{
+    background-color: #E36D5F;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    height: 205px;
+    line-height: 205px;
+    width: 300px;
+    font-weight: bold;
+    font-size:25px;
+}
+.right{
+    display: inline-block;
+    width:600px;
+    float: left;
+}
+.right a{
+    display: inline-block;
+    text-decoration: none;
+}
+.right .a{
+    background-color: #7ED5C2;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 5px;
+}
+.right .b{
+    background-color: #DFB682;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+.right .e{
+    background-color: #6AD97D;
+    width: 295px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.right .f{
+    background-color: #71AEE7;
+    width: 206px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.notice {
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:10px;
+    color:#fff;
+    text-align:center;
+    background-color:#f00;
+    border-radius:50%;
+    position: relative;
+    right:-5px;
+    top:-30px;
+    display: inline-block;
+}

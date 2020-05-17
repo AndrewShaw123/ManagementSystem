@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+}
+table tr th{
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-top: solid 1px #ddd;
+    text-align: left;
+}
+table tr td{
+    border: none;
+    border-top: solid 1px #ddd;
+}

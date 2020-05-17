@@ -1,0 +1,24 @@
+form{
+    border: 2px solid gray;
+    float: left;
+    width: 570px;
+    height: 200px;
+    margin-left: 550px;
+}
+#username{
+    height: 20px;
+}
+#submit{
+    padding:4px 15px;
+    width:120px;
+    height:40px;
+    border:1px solid #fff;
+    font:16px bolder;
+    margin-left: 180px;
+}
+table{
+    border-spacing: 20px;
+}
+input::-webkit-input-placeholder {
+    font-size: 5px;
+}

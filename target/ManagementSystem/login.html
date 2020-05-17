@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎登录</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/login.css">-->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/login.js"></script>
+	<link rel="icon" href="img/logo.jpg">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body style="background-color:whitesmoke">
+<div class="page">
+
+	<div class="wrapper">
+		<div class="container">
+			<h2>Please Sign in</h2>
+			<form method="post" action="LoginServlet">
+				<span id="message"></span>
+				<div>
+					<input id="username" type="text" name="username" placeholder="Account">
+				</div>
+
+				<div>
+					<input id="password" type="password" name="password" placeholder="Password">
+				</div>
+				<br>
+				<div>
+					<select name="authority" id="select">
+						<option value="manager" selected>管理员</option>
+						<option value="member">成员</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<input type="submit" id="login-button" value="登录">
+				</div>
+				<br>
+				<div>
+					<a id="signUp-link" href="signup.html">注册</a>
+				</div>
+			</form>
+
+		</div>
+		
+	</div>
+
+</div>
+
+</body>
+</html>

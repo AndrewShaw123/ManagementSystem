@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>待审核列表</title>
+    <link rel="stylesheet" href="../../css/waitPermitList.css">
+    <link rel="icon" href="../../img/logo.jpg">
+    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/waitPermitList.js"></script>
+</head>
+<body style="background-color:whitesmoke">
+
+        <div class="head">
+            <ul>
+                <h1>信息管理系统</h1>
+                <li style="width: 250px;height: 30px;"></li>
+                <li><a href="../changeUserLoginInfo.html" style="width: 500px;"><img id="pic" src="" width="25px" height="25px">欢迎管理员：<span id="loginName"></span></a></li>
+                <li><a href="main.html">首页</a></li>
+                <li><a href="../../BeforeChangeUserInfoServlet">修改个人信息</a></li>
+                <li><a href="../changePassword.html">修改密码</a></li>
+                <li><a href="../../ExitServlet">退出</a></li>
+                <li style="width: 306px;height: 30px;"></li>
+            </ul>
+        </div>
+        <br/>
+
+        <div style="margin-left: 700px;">
+            <h1>待审核列表</h1>
+        </div>
+
+        <table id="permit">
+            <tr>
+                <th>头像</th>
+                <th>姓名</th>
+                <th>权限</th>
+                <th>操作</th>
+            </tr>
+        </table>
+</body>
+</html>

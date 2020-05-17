@@ -1,0 +1,7 @@
+form{
+    width: 480px;
+    margin: 0 auto;
+}
+input::-webkit-input-placeholder {
+    font-size: 5px;
+}
